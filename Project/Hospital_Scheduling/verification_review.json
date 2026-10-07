@@ -1,0 +1,631 @@
+{
+  "preference_optimum": {
+    "coverage": [
+      [
+        1,
+        "D",
+        "B, E",
+        2,
+        2
+      ],
+      [
+        1,
+        "N",
+        "C, D",
+        2,
+        2
+      ],
+      [
+        2,
+        "D",
+        "A, B",
+        2,
+        2
+      ],
+      [
+        2,
+        "N",
+        "C, F",
+        2,
+        2
+      ],
+      [
+        3,
+        "D",
+        "B, E",
+        2,
+        2
+      ],
+      [
+        3,
+        "N",
+        "C, D",
+        2,
+        2
+      ],
+      [
+        4,
+        "D",
+        "A, E",
+        2,
+        2
+      ],
+      [
+        4,
+        "N",
+        "D, F",
+        2,
+        2
+      ]
+    ],
+    "nurses": [
+      {
+        "nurse": "A",
+        "pattern": "ODOD",
+        "hours": 24,
+        "costs": [
+          0,
+          0
+        ],
+        "penalty": 0,
+        "nights": 0,
+        "gaps": [
+          [
+            "Day 1 07:00",
+            "Day 2 07:00",
+            24
+          ],
+          [
+            "Day 2 19:00",
+            "Day 4 07:00",
+            36
+          ]
+        ],
+        "availability_pass": true
+      },
+      {
+        "nurse": "B",
+        "pattern": "DDDO",
+        "hours": 36,
+        "costs": [
+          0,
+          0,
+          0
+        ],
+        "penalty": 0,
+        "nights": 0,
+        "gaps": [
+          [
+            "Day 1 19:00",
+            "Day 2 07:00",
+            12
+          ],
+          [
+            "Day 2 19:00",
+            "Day 3 07:00",
+            12
+          ]
+        ],
+        "availability_pass": true
+      },
+      {
+        "nurse": "C",
+        "pattern": "NNNO",
+        "hours": 36,
+        "costs": [
+          0,
+          0,
+          0
+        ],
+        "penalty": 0,
+        "nights": 3,
+        "gaps": [
+          [
+            "Day 2 07:00",
+            "Day 2 19:00",
+            12
+          ],
+          [
+            "Day 3 07:00",
+            "Day 3 19:00",
+            12
+          ]
+        ],
+        "availability_pass": true
+      },
+      {
+        "nurse": "D",
+        "pattern": "NONN",
+        "hours": 36,
+        "costs": [
+          0,
+          0,
+          0
+        ],
+        "penalty": 0,
+        "nights": 3,
+        "gaps": [
+          [
+            "Day 2 07:00",
+            "Day 3 19:00",
+            36
+          ],
+          [
+            "Day 4 07:00",
+            "Day 4 19:00",
+            12
+          ]
+        ],
+        "availability_pass": true
+      },
+      {
+        "nurse": "E",
+        "pattern": "DODD",
+        "hours": 36,
+        "costs": [
+          1,
+          0,
+          0
+        ],
+        "penalty": 1,
+        "nights": 0,
+        "gaps": [
+          [
+            "Day 1 19:00",
+            "Day 3 07:00",
+            36
+          ],
+          [
+            "Day 3 19:00",
+            "Day 4 07:00",
+            12
+          ]
+        ],
+        "availability_pass": true
+      },
+      {
+        "nurse": "F",
+        "pattern": "ONON",
+        "hours": 24,
+        "costs": [
+          0,
+          0
+        ],
+        "penalty": 0,
+        "nights": 2,
+        "gaps": [
+          [
+            "Day 3 07:00",
+            "Day 4 19:00",
+            36
+          ]
+        ],
+        "availability_pass": true
+      }
+    ],
+    "penalty": 1,
+    "fairness": 22,
+    "hours": 192,
+    "errors": []
+  },
+  "fairness_optimum": {
+    "coverage": [
+      [
+        1,
+        "D",
+        "B, F",
+        2,
+        2
+      ],
+      [
+        1,
+        "N",
+        "A, E",
+        2,
+        2
+      ],
+      [
+        2,
+        "D",
+        "B, F",
+        2,
+        2
+      ],
+      [
+        2,
+        "N",
+        "C, D",
+        2,
+        2
+      ],
+      [
+        3,
+        "D",
+        "A, E",
+        2,
+        2
+      ],
+      [
+        3,
+        "N",
+        "B, C",
+        2,
+        2
+      ],
+      [
+        4,
+        "D",
+        "A, E",
+        2,
+        2
+      ],
+      [
+        4,
+        "N",
+        "D, F",
+        2,
+        2
+      ]
+    ],
+    "nurses": [
+      {
+        "nurse": "A",
+        "pattern": "NODD",
+        "hours": 36,
+        "costs": [
+          3,
+          1,
+          0
+        ],
+        "penalty": 4,
+        "nights": 1,
+        "gaps": [
+          [
+            "Day 1 07:00",
+            "Day 1 19:00",
+            12
+          ],
+          [
+            "Day 2 07:00",
+            "Day 3 07:00",
+            24
+          ],
+          [
+            "Day 3 19:00",
+            "Day 4 07:00",
+            12
+          ]
+        ],
+        "availability_pass": true
+      },
+      {
+        "nurse": "B",
+        "pattern": "DDNO",
+        "hours": 36,
+        "costs": [
+          0,
+          0,
+          3
+        ],
+        "penalty": 3,
+        "nights": 1,
+        "gaps": [
+          [
+            "Day 1 19:00",
+            "Day 2 07:00",
+            12
+          ],
+          [
+            "Day 2 19:00",
+            "Day 3 19:00",
+            24
+          ]
+        ],
+        "availability_pass": true
+      },
+      {
+        "nurse": "C",
+        "pattern": "ONNO",
+        "hours": 24,
+        "costs": [
+          0,
+          0
+        ],
+        "penalty": 0,
+        "nights": 2,
+        "gaps": [
+          [
+            "Day 3 07:00",
+            "Day 3 19:00",
+            12
+          ]
+        ],
+        "availability_pass": true
+      },
+      {
+        "nurse": "D",
+        "pattern": "ONON",
+        "hours": 24,
+        "costs": [
+          1,
+          0
+        ],
+        "penalty": 1,
+        "nights": 2,
+        "gaps": [
+          [
+            "Day 3 07:00",
+            "Day 4 19:00",
+            36
+          ]
+        ],
+        "availability_pass": true
+      },
+      {
+        "nurse": "E",
+        "pattern": "NODD",
+        "hours": 36,
+        "costs": [
+          2,
+          0,
+          0
+        ],
+        "penalty": 2,
+        "nights": 1,
+        "gaps": [
+          [
+            "Day 2 07:00",
+            "Day 3 07:00",
+            24
+          ],
+          [
+            "Day 3 19:00",
+            "Day 4 07:00",
+            12
+          ]
+        ],
+        "availability_pass": true
+      },
+      {
+        "nurse": "F",
+        "pattern": "DDON",
+        "hours": 36,
+        "costs": [
+          2,
+          2,
+          0
+        ],
+        "penalty": 4,
+        "nights": 1,
+        "gaps": [
+          [
+            "Day 1 19:00",
+            "Day 2 07:00",
+            12
+          ],
+          [
+            "Day 2 19:00",
+            "Day 4 19:00",
+            48
+          ]
+        ],
+        "availability_pass": true
+      }
+    ],
+    "penalty": 14,
+    "fairness": 12,
+    "hours": 192,
+    "errors": []
+  },
+  "omit_boundary_rest": {
+    "coverage": [
+      [
+        1,
+        "D",
+        "A, B",
+        2,
+        2
+      ],
+      [
+        1,
+        "N",
+        "C, D",
+        2,
+        2
+      ],
+      [
+        2,
+        "D",
+        "A, B",
+        2,
+        2
+      ],
+      [
+        2,
+        "N",
+        "C, F",
+        2,
+        2
+      ],
+      [
+        3,
+        "D",
+        "B, E",
+        2,
+        2
+      ],
+      [
+        3,
+        "N",
+        "C, D",
+        2,
+        2
+      ],
+      [
+        4,
+        "D",
+        "A, E",
+        2,
+        2
+      ],
+      [
+        4,
+        "N",
+        "D, F",
+        2,
+        2
+      ]
+    ],
+    "nurses": [
+      {
+        "nurse": "A",
+        "pattern": "DDOD",
+        "hours": 36,
+        "costs": [
+          0,
+          0,
+          0
+        ],
+        "penalty": 0,
+        "nights": 0,
+        "gaps": [
+          [
+            "Day 1 07:00",
+            "Day 1 07:00",
+            0
+          ],
+          [
+            "Day 1 19:00",
+            "Day 2 07:00",
+            12
+          ],
+          [
+            "Day 2 19:00",
+            "Day 4 07:00",
+            36
+          ]
+        ],
+        "availability_pass": true
+      },
+      {
+        "nurse": "B",
+        "pattern": "DDDO",
+        "hours": 36,
+        "costs": [
+          0,
+          0,
+          0
+        ],
+        "penalty": 0,
+        "nights": 0,
+        "gaps": [
+          [
+            "Day 1 19:00",
+            "Day 2 07:00",
+            12
+          ],
+          [
+            "Day 2 19:00",
+            "Day 3 07:00",
+            12
+          ]
+        ],
+        "availability_pass": true
+      },
+      {
+        "nurse": "C",
+        "pattern": "NNNO",
+        "hours": 36,
+        "costs": [
+          0,
+          0,
+          0
+        ],
+        "penalty": 0,
+        "nights": 3,
+        "gaps": [
+          [
+            "Day 2 07:00",
+            "Day 2 19:00",
+            12
+          ],
+          [
+            "Day 3 07:00",
+            "Day 3 19:00",
+            12
+          ]
+        ],
+        "availability_pass": true
+      },
+      {
+        "nurse": "D",
+        "pattern": "NONN",
+        "hours": 36,
+        "costs": [
+          0,
+          0,
+          0
+        ],
+        "penalty": 0,
+        "nights": 3,
+        "gaps": [
+          [
+            "Day 2 07:00",
+            "Day 3 19:00",
+            36
+          ],
+          [
+            "Day 4 07:00",
+            "Day 4 19:00",
+            12
+          ]
+        ],
+        "availability_pass": true
+      },
+      {
+        "nurse": "E",
+        "pattern": "OODD",
+        "hours": 24,
+        "costs": [
+          0,
+          0
+        ],
+        "penalty": 0,
+        "nights": 0,
+        "gaps": [
+          [
+            "Day 3 19:00",
+            "Day 4 07:00",
+            12
+          ]
+        ],
+        "availability_pass": true
+      },
+      {
+        "nurse": "F",
+        "pattern": "ONON",
+        "hours": 24,
+        "costs": [
+          0,
+          0
+        ],
+        "penalty": 0,
+        "nights": 2,
+        "gaps": [
+          [
+            "Day 3 07:00",
+            "Day 4 19:00",
+            36
+          ]
+        ],
+        "availability_pass": true
+      }
+    ],
+    "penalty": 0,
+    "fairness": 22,
+    "hours": 192,
+    "errors": [
+      "A: rest below 12 hours"
+    ]
+  }
+}

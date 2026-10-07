@@ -1,0 +1,17 @@
+Option 2 and rendering QA
+11 slides; timing plan 510 seconds.
+Strengths: slides 4, 5, 6, 9.
+Limitations and observed incomplete response: slides 3, 8, 9, 10.
+Helpful optimization explanations: slides 6 and 7, with source notes.
+Human judgment: slides 3 through 8 and 10; constructed interventions marked internally.
+Learning: slides 6, 7, 8 and 11.
+Real-world decision-maker: slide 2. Synthetic inputs disclosed in notes.
+GenAI identity: slide 9 and source notes.
+Original prompt: slide 3. Later reproduction prompt distinguished in notes.
+Controlled boundary omission: clearly intentional on slide 8.
+Values reconciled to results.json and verification_review.json.
+Every slide rendered at 1280x720 and individually inspected.
+DOM geometry checks: no overflow or clipping findings.
+No visible em dashes or draft-intervention warnings.
+Hidden draft markers on slides 3,4,5,6,7,8,11, in comments and notes.
+No invented second-model trial, external validation, clinician review or deployment.

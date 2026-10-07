@@ -1,0 +1,152 @@
+{
+  "sampling_prob": {
+    "sheet": "Sampling",
+    "kind": "range",
+    "range": "B2:E7",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/sampling_prob.png"
+  },
+  "sampling": {
+    "sheet": "Sampling",
+    "kind": "range",
+    "range": "G2:L17",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/sampling.png"
+  },
+  "fish_prob": {
+    "sheet": "Fishery operations",
+    "kind": "range",
+    "range": "B2:E10",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/fish_prob.png"
+  },
+  "fish_summary": {
+    "sheet": "Fishery operations",
+    "kind": "range",
+    "range": "X4:Y9",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/fish_summary.png"
+  },
+  "fish_first": {
+    "sheet": "Fishery operations",
+    "kind": "range",
+    "range": "G3:O38",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/fish_first.png"
+  },
+  "fish_last": {
+    "sheet": "Fishery operations",
+    "kind": "range",
+    "range": "G39:O73",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/fish_last.png"
+  },
+  "n_rows": {
+    "sheet": "N analysis",
+    "kind": "range",
+    "range": "G3:T15",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/n_rows.png"
+  },
+  "n_last": {
+    "sheet": "N analysis",
+    "kind": "range",
+    "range": "P494:T503",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/n_last.png"
+  },
+  "n_summary": {
+    "sheet": "N analysis",
+    "kind": "range",
+    "range": "V36:W40",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/n_summary.png"
+  },
+  "n_chart": {
+    "sheet": "N analysis",
+    "kind": "chart",
+    "range": 1,
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/n_chart.png"
+  },
+  "q_inputs": {
+    "sheet": "Analysis on Q",
+    "kind": "range",
+    "range": "Q3:R14",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/q_inputs.png"
+  },
+  "q_table": {
+    "sheet": "Analysis on Q",
+    "kind": "range",
+    "range": "T3:U44",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/q_table.png"
+  },
+  "q_chart": {
+    "sheet": "Analysis on Q",
+    "kind": "chart",
+    "range": 1,
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/q_chart.png"
+  },
+  "air_rows": {
+    "sheet": "Airline (a)",
+    "kind": "range",
+    "range": "B3:K16",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/air_rows.png"
+  },
+  "air_summary": {
+    "sheet": "Airline (a)",
+    "kind": "range",
+    "range": "R2:S13",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/air_summary.png"
+  },
+  "air_cumulative": {
+    "sheet": "Airline (b)",
+    "kind": "range",
+    "range": "L3:P15",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/air_cumulative.png"
+  },
+  "air_last": {
+    "sheet": "Airline (b)",
+    "kind": "range",
+    "range": "L5094:P5103",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/air_last.png"
+  },
+  "air_n_chart": {
+    "sheet": "Airline (b)",
+    "kind": "chart",
+    "range": 1,
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/air_n_chart.png"
+  },
+  "air_limits": {
+    "sheet": "Airline (c)",
+    "kind": "range",
+    "range": "R2:S19",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/air_limits.png"
+  },
+  "air_chart": {
+    "sheet": "Airline (c)",
+    "kind": "chart",
+    "range": 1,
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/air_chart.png"
+  },
+  "food_params": {
+    "sheet": "Food bank",
+    "kind": "range",
+    "range": "B4:F24",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/food_params.png"
+  },
+  "food_costs": {
+    "sheet": "Food bank",
+    "kind": "range",
+    "range": "H4:K10",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/food_costs.png"
+  },
+  "food_decisions": {
+    "sheet": "Food bank",
+    "kind": "range",
+    "range": "C28:F32",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/food_decisions.png"
+  },
+  "food_constraints": {
+    "sheet": "Food bank",
+    "kind": "range",
+    "range": "C36:F53",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/food_constraints.png"
+  },
+  "food_objective": {
+    "sheet": "Food bank",
+    "kind": "range",
+    "range": "C55:G60",
+    "path": "/Users/mahir/Downloads/DMU/Recitation W6/tmp/captures/food_objective.png"
+  }
+}

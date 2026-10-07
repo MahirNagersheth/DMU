@@ -1,0 +1,509 @@
+{
+  "preference_optimum": {
+    "feasible": true,
+    "objective": "preference",
+    "score": [
+      1,
+      22
+    ],
+    "schedule": {
+      "A": "ODOD",
+      "B": "DDDO",
+      "C": "NNNO",
+      "D": "NONN",
+      "E": "DODD",
+      "F": "ONON"
+    },
+    "audit_against_full_rules": {
+      "valid": true,
+      "violations": [],
+      "coverage": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hours": {
+        "A": 24,
+        "B": 36,
+        "C": 36,
+        "D": 36,
+        "E": 36,
+        "F": 24
+      },
+      "night_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 3,
+        "D": 3,
+        "E": 0,
+        "F": 2
+      },
+      "preference_cost": 1,
+      "night_square_sum": 22,
+      "rest_gaps_hours": {
+        "A": [
+          24,
+          36
+        ],
+        "B": [
+          12,
+          12
+        ],
+        "C": [
+          12,
+          12
+        ],
+        "D": [
+          36,
+          12
+        ],
+        "E": [
+          36,
+          12
+        ],
+        "F": [
+          36
+        ]
+      }
+    },
+    "state_counts": [
+      1,
+      25,
+      455,
+      2270,
+      3677,
+      1710,
+      423
+    ]
+  },
+  "fairness_optimum": {
+    "feasible": true,
+    "objective": "fairness",
+    "score": [
+      12,
+      14
+    ],
+    "schedule": {
+      "A": "NODD",
+      "B": "DDNO",
+      "C": "ONNO",
+      "D": "ONON",
+      "E": "NODD",
+      "F": "DDON"
+    },
+    "audit_against_full_rules": {
+      "valid": true,
+      "violations": [],
+      "coverage": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hours": {
+        "A": 36,
+        "B": 36,
+        "C": 24,
+        "D": 24,
+        "E": 36,
+        "F": 36
+      },
+      "night_counts": {
+        "A": 1,
+        "B": 1,
+        "C": 2,
+        "D": 2,
+        "E": 1,
+        "F": 1
+      },
+      "preference_cost": 14,
+      "night_square_sum": 12,
+      "rest_gaps_hours": {
+        "A": [
+          12,
+          24,
+          12
+        ],
+        "B": [
+          12,
+          24
+        ],
+        "C": [
+          12
+        ],
+        "D": [
+          36
+        ],
+        "E": [
+          24,
+          12
+        ],
+        "F": [
+          12,
+          48
+        ]
+      }
+    },
+    "state_counts": [
+      1,
+      25,
+      455,
+      2270,
+      3677,
+      1710,
+      423
+    ]
+  },
+  "omit_internal_rest": {
+    "feasible": true,
+    "objective": "preference",
+    "score": [
+      1,
+      22
+    ],
+    "schedule": {
+      "A": "ODOD",
+      "B": "DDDO",
+      "C": "NNNO",
+      "D": "NONN",
+      "E": "DODD",
+      "F": "ONON"
+    },
+    "audit_against_full_rules": {
+      "valid": true,
+      "violations": [],
+      "coverage": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hours": {
+        "A": 24,
+        "B": 36,
+        "C": 36,
+        "D": 36,
+        "E": 36,
+        "F": 24
+      },
+      "night_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 3,
+        "D": 3,
+        "E": 0,
+        "F": 2
+      },
+      "preference_cost": 1,
+      "night_square_sum": 22,
+      "rest_gaps_hours": {
+        "A": [
+          24,
+          36
+        ],
+        "B": [
+          12,
+          12
+        ],
+        "C": [
+          12,
+          12
+        ],
+        "D": [
+          36,
+          12
+        ],
+        "E": [
+          36,
+          12
+        ],
+        "F": [
+          36
+        ]
+      }
+    },
+    "state_counts": [
+      1,
+      38,
+      722,
+      2805,
+      3677,
+      1710,
+      423
+    ]
+  },
+  "omit_boundary_rest": {
+    "feasible": true,
+    "objective": "preference",
+    "score": [
+      0,
+      22
+    ],
+    "schedule": {
+      "A": "DDOD",
+      "B": "DDDO",
+      "C": "NNNO",
+      "D": "NONN",
+      "E": "OODD",
+      "F": "ONON"
+    },
+    "audit_against_full_rules": {
+      "valid": false,
+      "violations": [
+        "A: rest below 12 hours ([0, 12, 36])"
+      ],
+      "coverage": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hours": {
+        "A": 36,
+        "B": 36,
+        "C": 36,
+        "D": 36,
+        "E": 24,
+        "F": 24
+      },
+      "night_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 3,
+        "D": 3,
+        "E": 0,
+        "F": 2
+      },
+      "preference_cost": 0,
+      "night_square_sum": 22,
+      "rest_gaps_hours": {
+        "A": [
+          0,
+          12,
+          36
+        ],
+        "B": [
+          12,
+          12
+        ],
+        "C": [
+          12,
+          12
+        ],
+        "D": [
+          36,
+          12
+        ],
+        "E": [
+          12
+        ],
+        "F": [
+          36
+        ]
+      }
+    },
+    "state_counts": [
+      1,
+      41,
+      565,
+      2270,
+      3677,
+      1710,
+      423
+    ]
+  },
+  "omit_availability": {
+    "feasible": true,
+    "objective": "preference",
+    "score": [
+      1,
+      22
+    ],
+    "schedule": {
+      "A": "ODOD",
+      "B": "DDDO",
+      "C": "NNNO",
+      "D": "NONN",
+      "E": "DODD",
+      "F": "ONON"
+    },
+    "audit_against_full_rules": {
+      "valid": true,
+      "violations": [],
+      "coverage": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hours": {
+        "A": 24,
+        "B": 36,
+        "C": 36,
+        "D": 36,
+        "E": 36,
+        "F": 24
+      },
+      "night_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 3,
+        "D": 3,
+        "E": 0,
+        "F": 2
+      },
+      "preference_cost": 1,
+      "night_square_sum": 22,
+      "rest_gaps_hours": {
+        "A": [
+          24,
+          36
+        ],
+        "B": [
+          12,
+          12
+        ],
+        "C": [
+          12,
+          12
+        ],
+        "D": [
+          36,
+          12
+        ],
+        "E": [
+          36,
+          12
+        ],
+        "F": [
+          36
+        ]
+      }
+    },
+    "state_counts": [
+      1,
+      25,
+      455,
+      2270,
+      3677,
+      1710,
+      423
+    ]
+  },
+  "max_24_hours": {
+    "feasible": false,
+    "state_counts": [
+      1,
+      15,
+      160,
+      643,
+      1107,
+      784,
+      266
+    ]
+  },
+  "extra_nurse_day2_night": {
+    "feasible": true,
+    "objective": "preference",
+    "score": [
+      2,
+      27
+    ],
+    "schedule": {
+      "A": "ODOD",
+      "B": "DDDO",
+      "C": "NNNO",
+      "D": "ONNN",
+      "E": "DODD",
+      "F": "NNON"
+    },
+    "audit_against_full_rules": {
+      "valid": true,
+      "violations": [],
+      "coverage": [
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hours": {
+        "A": 24,
+        "B": 36,
+        "C": 36,
+        "D": 36,
+        "E": 36,
+        "F": 36
+      },
+      "night_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 3,
+        "D": 3,
+        "E": 0,
+        "F": 3
+      },
+      "preference_cost": 2,
+      "night_square_sum": 27,
+      "rest_gaps_hours": {
+        "A": [
+          24,
+          36
+        ],
+        "B": [
+          12,
+          12
+        ],
+        "C": [
+          12,
+          12
+        ],
+        "D": [
+          12,
+          12
+        ],
+        "E": [
+          36,
+          12
+        ],
+        "F": [
+          12,
+          36
+        ]
+      }
+    },
+    "state_counts": [
+      1,
+      25,
+      455,
+      2412,
+      4396,
+      2438,
+      963
+    ]
+  }
+}

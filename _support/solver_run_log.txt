@@ -1,0 +1,8 @@
+Excel Solver Simplex LP runs completed successfully (return code 0).
+P1 Lunch: cost 185; meals 35,15,10.
+P3 Base: 69700
+P3 Pittsburgh: 57900
+P3 Cleveland: 57600
+P3 Columbus: 59500
+P4 Mentoring: 435
+All models solved from reset decision values, independently checked using SciPy/HiGHS.
